@@ -1,9 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const invite = urlParams.get('host');
 let girlName = "Swapnali Dhanmeher";
-let daughterOf = "D/O Mr. Nitin Dhanmeher & Mrs. Jyoti Dhanmeher";
+let daughterOf = "D/O Mrs. Jyoti Dhanmeher & Mr. Nitin Dhanmeher";
 let boyName = "Vaibhav Arekar";
-let sonOf = "S/O Mr. Kantaram Arekar & Mrs. Sangeeta Arekar";
+let sonOf = "S/O Mrs. Sangeeta Arekar & Mr. Kantaram Arekar";
 
 // Set the date of the engagement
 const engagementDate = new Date('2024-04-21T09:00:00');
@@ -11,9 +11,9 @@ let countdownInterval;
 
 if (invite === "Swapnali") {
     girlName = "Vaibhav Arekar";
-    daughterOf = "S/O Mr. Kantaram Arekar & Mrs. Sangeeta Arekar";
+    daughterOf = "S/O Mrs. Sangeeta Arekar & Mr. Kantaram Arekar";
     boyName = "Swapnali Dhanmeher";
-    sonOf = "D/O Mr. Nitin Dhanmeher & Mrs. Jyoti Dhanmeher";
+    sonOf = "D/O Mrs. Jyoti Dhanmeher & Mr. Nitin Dhanmeher";
 }
 
 function updateCountdown() {
